@@ -19,7 +19,6 @@ class Dbf
       $row_arr[] = $row;
     }
     $this->dbl = $row_arr;
-
   }
 }
 
