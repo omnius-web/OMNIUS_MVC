@@ -60,7 +60,7 @@ class Dbf
     }
   }
 
-  public function db_pdo_list($table, $where, $where_arr = 0)
+  public function db_pdo_list($table, $where = 0, $where_arr = 0)
   {
     $this->dbcon();
     $connect = $this->dbcon;
